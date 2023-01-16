@@ -58,7 +58,7 @@ def hour():
         if hh == 24:
             hh = 0
 
-def clock(hh, mm, ss):
+def afficher_heure(hh, mm, ss):
     """
 
     Parameters
@@ -219,3 +219,5 @@ def AM_PM(timer):
         hour()
     else:
         return "Please, pass your way"
+
+    hour()
